@@ -1,0 +1,5 @@
+{
+  "token": "bot-token",
+  "dbUrl": "mongo-db-url",
+  "dbName": "db-name"
+}
