@@ -57,7 +57,7 @@ type User struct {
 }
 
 func GetUser(id string) (User, error) {
-	defer func() {                        //catch or finally
+	defer func() { //catch or finally
 		if err := recover(); err != nil { //catch
 			fmt.Println("Some Unkown error occured ", err)
 		}
@@ -83,7 +83,7 @@ func GetUser(id string) (User, error) {
 }
 
 func GetEventDataFromId(id string) (EventDataWithID, error) {
-	defer func() {                        //catch or finally
+	defer func() { //catch or finally
 		if err := recover(); err != nil { //catch
 			fmt.Println("Some Unkown error occured ", err)
 		}
